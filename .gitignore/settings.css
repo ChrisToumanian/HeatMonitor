@@ -1,0 +1,95 @@
+.settings-logout {
+    margin-top: 50px;
+    margin-left: -10px;
+}
+
+.button {
+    position: relative;
+    background-color: #dddddd;
+    border-style: solid;
+    border-width: 0px;
+    border-color: white;
+    font-family: "nowayregular", sans-serif;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 6px 16px;
+    height: 36px;
+    margin-left: 10px;
+    width: 100px;
+}
+
+.button:hover {
+    background: #3c4853;
+    color: white;
+    cursor: pointer;
+}
+
+select {
+    -webkit-appearance: menulist;
+    box-sizing: border-box;
+    align-items: center;
+    white-space: pre;
+    -webkit-rtl-ordering: logical;
+    color: #3c4853;
+    background-color: white;
+    cursor: default;
+    border-width: 1px;
+    border-style: solid;
+    border-color: initial;
+    border-image: initial;
+}
+
+input {
+    font-family: monospace;
+    border: 0px solid rgba(160, 160, 159, 1);
+    background-color: #eeeeee;
+    color: #000000;
+    padding: 6px;
+    resize: none;
+    width: 300px;
+
+}
+
+form {
+    display: inline-flex;
+}
+
+.login {
+    margin: auto;
+    width: 400px;
+    margin-top: 200px;
+    border: 1px solid black;
+}
+
+.contents {
+    width: 100%;
+    padding: 12px;
+    display: block;
+}
+
+.contents input {
+    font-family: "quicksandbook", sans-serif;
+    font-size: 16px;
+    margin-top: 4px;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    width: 90%;
+}
+
+#notificationsbutton {
+    position: relative;
+    left: 176px;
+}
+
+#notificationslabel {
+    padding-top: 7px;
+    padding-left: 6px;
+}
+
+.checkbox {
+    width: 15px;
+    margin-top: 10px;
+}

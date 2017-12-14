@@ -1,0 +1,119 @@
+body {
+  font-family: "nowayregular", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  color: white;
+  background-color: #222;
+  padding: 0px;
+  margin: 0px;
+}
+
+h1 {
+  font-family: "nowayregular", sans-serif;
+  font-size: 17px;
+  font-weight: normal;
+  font-style: normal;
+  color:white;
+  padding: 2px;
+}
+
+.container {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.linedivider {
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+table {
+	border-collapse: collapse;
+	border: 2px lightgray;
+	border-spacing: 1px;
+	padding: 3px;
+  width: 960px;
+}
+
+td, th {
+  padding-left: 10px;
+  padding-right: 40px;
+}
+
+.textbox {
+  font-family: "nowayregular", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  vertical-align: middle;
+  padding: 0px;
+  margin: 0px;
+  display: inline-block;
+  margin-top: 4px;
+  padding: 8px;
+  border: none;
+}
+
+.selectionbox {
+  font-family: "nowayregular", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  vertical-align: middle;
+  padding: 0px;
+  margin: 0px;
+  display: inline-block;
+  margin-top: 4px;
+  padding: 7px;
+  border: none;
+}
+
+.button {
+  background-color: #dddddd;
+  border-style: solid; 
+  border-width: 0px;
+  border-color: white;
+  font-family: "nowayregular", sans-serif;
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 6px 16px;
+}
+
+.button:hover {
+  background: black;
+  color: white;
+  cursor: pointer;
+}
+
+input::-webkit-calendar-picker-indicator {
+  opacity:0;
+}
+
+a:link {color: #fff; text-decoration: none; }
+a:active {color: #fff; text-decoration: none; }
+a:visited {color: #BFBFBF; text-decoration: none; }
+a:hover {color: #fff; text-decoration: none; }
+
+@font-face {
+  font-family: 'dos';
+   src: url('fonts/perfect_dos_vga_437_win-webfont.woff2') format('woff2'),
+       url('fonts/perfect_dos_vga_437_win-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'nowayregular';
+    src: url('fonts/noway-regular-webfont.eot');
+    src: url('fonts/noway-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/noway-regular-webfont.woff2') format('woff2'),
+         url('fonts/noway-regular-webfont.woff') format('woff'),
+         url('fonts/noway-regular-webfont.ttf') format('truetype'),
+         url('fonts/noway-regular-webfont.svg#nowayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
