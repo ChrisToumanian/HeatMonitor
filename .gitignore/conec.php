@@ -4,7 +4,7 @@
     ini_set('display_errors', 0);
 
     function Connection(){
-    if (!($link=mysql_connect("minecraft.massivedamage.net:3306","Chris","Waunuma64")))  {
+    if (!($link=mysql_connect("minecraft.massivedamage.net:3306","<username>","<password>")))  {
         exit();
     }
     if (!mysql_select_db("heatmonitor",$link)){
